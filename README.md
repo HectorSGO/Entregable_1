@@ -4,10 +4,9 @@
 En este repositorio se encontraran los entregables de la semana 1 y semana 2.
 ## Screenshots para el flujo commit y push.
 - https://raw.githubusercontent.com/HectorSGO/Entregable_1/main/assets/imagenes_git/git_branch.png
-- Elemento
-- Elemento
-- Elemento
-- Elemento
+- https://raw.githubusercontent.com/HectorSGO/Entregable_1/main/assets/imagenes_git/git_status.png
+- https://raw.githubusercontent.com/HectorSGO/Entregable_1/main/assets/imagenes_git/git_add.png
+- https://raw.githubusercontent.com/HectorSGO/Entregable_1/main/assets/imagenes_git/commit.png
 
 ## Dockerfile ejecutable
 - Esta actividad se encontrara dentro del repositorio en la carpeta "Proyecto_Dockerfile"
