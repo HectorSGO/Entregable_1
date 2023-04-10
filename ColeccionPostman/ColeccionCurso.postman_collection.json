@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "b4656ceb-79fa-4995-8763-b1891a4a7135",
+		"name": "ColeccionCurso",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24366869"
+	},
+	"item": [
+		{
+			"name": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\": \"Hector Salvador\",\n    \"edad\": 26,\n    \"colorfavorito\": \"Verde\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"f39551b039894eb7bedebb9b6f92d63e",
+						"cursodos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"f39551b039894eb7bedebb9b6f92d63e",
+						"cursodos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos/64345d33308c9903e84edc99",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\": \"Hector Salvador Garcia\",\n    \"edad\": 23,\n    \"colorfavorito\": \"Azul\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos/64345d33308c9903e84edc99",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"f39551b039894eb7bedebb9b6f92d63e",
+						"cursodos",
+						"64345d33308c9903e84edc99"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos/64345c6a308c9903e84edc98",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos/64345c6a308c9903e84edc98",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"f39551b039894eb7bedebb9b6f92d63e",
+						"cursodos",
+						"64345c6a308c9903e84edc98"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos/64345d33308c9903e84edc99",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\": \"Hector Salvador Garcia\",\n    \"edad\": 23,\n    \"colorfavorito\": \"Azul\"\n}"
+				},
+				"url": {
+					"raw": "https://crudcrud.com/api/f39551b039894eb7bedebb9b6f92d63e/cursodos/64345d33308c9903e84edc99",
+					"protocol": "https",
+					"host": [
+						"crudcrud",
+						"com"
+					],
+					"path": [
+						"api",
+						"f39551b039894eb7bedebb9b6f92d63e",
+						"cursodos",
+						"64345d33308c9903e84edc99"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
